@@ -16,11 +16,13 @@ Example: how to make  a complete machine learning pipeline for sentiment analysi
 write some code and you get the model object as model
 
 #### Here is the magic
-''' model.TuneHyperParameter()
+
+```python
+ model.TuneHyperParameter()
     model.CreateApi(model_input)
     model.CreateApp(model_input)
     model.CreateMonitoring() 
-    model.CreateContainer()
-'''
+    model.CreateContainer()```
+
 all in one:
 model.Deploy() 
