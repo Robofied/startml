@@ -18,11 +18,11 @@ write some code and you get the model object as model
 #### Here is the magic
 
 ```python
- model.TuneHyperParameter()
-    model.CreateApi(model_input)
-    model.CreateApp(model_input)
-    model.CreateMonitoring() 
-    model.CreateContainer()```
+model.TuneHyperParameter()
+model.CreateApi(model_input)
+model.CreateApp(model_input)
+model.CreateMonitoring() 
+model.CreateContainer()```
 
 all in one:
 model.Deploy() 
