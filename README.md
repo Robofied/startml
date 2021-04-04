@@ -6,22 +6,22 @@ startml is the starting point for any machine learning project. This is plug and
 
 ## How to use? 
 git clone startml
-give the name to your repo: 'myproject'
-give description for your repo: <<description>>
+give the name to your repo: myproject
+give description for your repo: description
 
 and Boom! it's there. 
 
 Example: how to make  a complete machine learning pipeline for sentiment analysis
 
-write some code and you get the model object as <<model>>
+write some code and you get the model object as model
 
 #### Here is the magic
-
+'''
 model.TuneHyperParameter()
 model.CreateApi(model_input)
 model.CreateApp(model_input)
 model.CreateMonitoring() 
 model.CreateContainer()
-
+'''
 all in one:
 model.Deploy() 
