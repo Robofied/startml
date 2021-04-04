@@ -5,7 +5,10 @@ startml is an end-to-end machine learning production pipeline framework which wi
 startml is the starting point for any machine learning project. This is plug and play for complete machine learning pipeline, just plug in the model object and whole thing will be powered. 
 
 ## How to use? 
+
+```python 
 git clone startml
+```
 give the name to your repo: myproject
 give description for your repo: description
 
@@ -22,7 +25,8 @@ model.TuneHyperParameter()
 model.CreateApi(model_input)
 model.CreateApp(model_input)
 model.CreateMonitoring() 
-model.CreateContainer()```
+model.CreateContainer()
+```
 
 all in one:
 model.Deploy() 
