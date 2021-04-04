@@ -6,7 +6,7 @@ startml is the starting point for any machine learning project. This is plug and
 
 ## How to use? 
 git clone startml
-give the name to your repo: <<myproject>>
+give the name to your repo: 'myproject'
 give description for your repo: <<description>>
 
 and Boom! it's there. 
